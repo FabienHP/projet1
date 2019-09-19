@@ -504,19 +504,48 @@
 
      .ok{
          list-style-image: url(img/Check.png);
+         margin-bottom:25px;
+         line-height: 1.5em;
+         padding-left: 20px;
+         
      }
 
      .no{
          list-style-image: url(img/Cross.png);
+         margin-bottom: 25px;
+         line-height: 1.5em;
+         padding-left: 20px;
+         
      }
 
      .checkitems{
         display:flex;
         flex-direction: column;
         justify-items: center;
-
-        list-style: none;
+        margin-top:15px;
+        padding: 0 30px;        
      }
+
+     .techdegree h6{
+         font-weight:500;
+         
+         font-size:13px;
+         padding-top:2px;
+         padding-left:80px;
+     }
+
+     .span2{
+        font-size: 13px;
+        padding-top:2px;
+     }
+     .last{
+         margin-bottom:0;
+     }
+
+     
+         
+}
+
      
 /*Fin section Launch your career*/
 
