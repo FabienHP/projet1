@@ -236,7 +236,7 @@
         color: #4b5658;
     }
 
-    button {
+    .form-button {
         background-color: #387bab;
         color: white;
         text-align: center;
@@ -305,7 +305,7 @@
         color: #384047
     }
 
-/* section Get a career Amaury*/
+/* section Get a career */
 
     .secjobs {
         display: flex;
@@ -368,7 +368,7 @@
         padding: 0 4rem;
     }
 
-/* Themes Formation Amauy*/
+/* Themes Formation*/
 
     .abox {
         text-decoration:none;
@@ -559,27 +559,73 @@
 
 /* SECTION  Chris-Stone */
 
-    .chris-stone{
-        
-        color: red;
-        font-size: 16px;
-        background-image: url(img/chris-stone.jpg);
-        background-size:100%;
-        background-repeat:no-repeat;
+    .chris-stone {
+        margin-top: 65px;
+        padding-bottom: 5rem;
     }
 
-   .titre3{
+    .chris-p {
+        background-image: url(img/chris-stone.jpg);
+        background-size: cover;
+        min-height: 350px;
+        width: 100%;
+    }
+
+    .chris-p>p {
+        color: #fff;
+        padding: 255px 2rem 0;
+        line-height: 1.6;
+        margin: 10px 0 20px 0;
+    }
+
+    .chris-p>p>span {
+        color: #7b8b8e;
+        font-size: 0.875rem;
+    }
+
+    .chris-padding {
+        padding: 3rem;
+    }
+
+   .chris-h3 {
         color:#384047;
         font-size: 28px;
         font-weight: bold;
-        margin: 15px 0px 32px;
+        margin: 15px 0 2rem;
     }
-        
-    .list4{
+
+    .chris-ul {
+        list-style-type: none;
+        margin: 0 0 30px 0 ;
+    }
+
+    .chris-ul li {
+        margin-bottom: 20px;
+    }
+
+    .chris-ul img {
+        padding-right: 15px;
+        vertical-align: middle;
+    }
+
+    .chris-ul p {
+        display: inline;
+        line-height: 1.5em;
+        color: #576366;
+    }
+
+    .chris-button {
+        color: #fff;
+        background-color: #674993;
+        height: 52px;
+        line-height: 48px;
+        border-radius: 4px;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .chris-tampon {
         text-align: center;
-        color:green;
-        display: flex;
-        flex-direction:column;
     }
       
 /* fin  */
