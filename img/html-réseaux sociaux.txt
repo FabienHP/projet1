@@ -1,0 +1,16 @@
+lien à ajouter dans head:
+
+<link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'> 
+
+
+logo facebook:  <i class="fab fa-facebook"></i>
+
+twitter:   <i class="fab fa-twitter-square"></i>
+
+linked-in:   <i class="fab fa-linkedin"></i>
+
+
+instagram:   <i class="fab fa-instagram"></i>
+
+
+youtube:    <i class="fab fa-youtube-square"></i>
