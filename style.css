@@ -493,10 +493,20 @@
          
      }
 
+     .ok{
+         list-style-image: url(img/Check.png);
+     }
+
+     .no{
+         list-style-image: url(img/Cross.png);
+     }
+
      .checkitems{
-         display:flex;
-         flex-direction: column;
-         list-style: none;
+        display:flex;
+        flex-direction: column;
+        justify-items: center;
+
+        list-style: none;
      }
      
 /*Fin section Launch your career*/
