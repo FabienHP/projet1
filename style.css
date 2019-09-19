@@ -105,18 +105,26 @@
         width: 100%;
     }
 
-    nav div {
-        height: 100%;
-    }
-
-    .align {
-        display: block; 
-        margin: auto;
+    .alignimg {
+        padding: 16px 0 0 15px;
     }
 
     .navlogo {
+        display: block; 
+        margin: auto;
         width: 30px;
         height: 32px;
+        padding: 8px;
+    }
+
+    .alignadiv {
+        display: flex;
+        align-items: center;
+        align-self: right;
+    }
+
+    .aligna {
+        padding-left: 39%;
     }
 
     nav a {
@@ -134,7 +142,7 @@
         background-attachment: scroll, scroll;
         background-position-x: 100%, 100%;
         background-position-y: 100%, -10px;
-        padding: 48px 32px 24px;
+        padding: 6rem 1.5rem 2rem;
     }
 
 /* Header*/
@@ -142,6 +150,7 @@
     .texthead {
         color: #fff;
         text-align: left;
+        padding: 0 15px;
     }
 
     .texthead h1 {
@@ -555,7 +564,7 @@
 
     .partner img {
         padding: 0 1.5rem 5rem;
-        margin: 0auto;
+        margin: 0 auto;
     }
 
 /* SECTION  Chris-Stone */
@@ -564,10 +573,9 @@
         
         color: red;
         font-size: 16px;
-        background-image: url(/img/chris-stone.jpg);
+        background-image: url(img/chris-stone.jpg);
         background-size:100%;
         background-repeat:no-repeat;
-        
     }
 
    .titre3{
