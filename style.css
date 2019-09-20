@@ -444,31 +444,29 @@
 
 /*Section Launch your career*/
 
-
-
-    .launchcareer{        
+    .launchcareer {        
         border: solid 1px #d4d9dd;
         border-radius: 4px;
         padding: 32px;
     }
 
-    .launchcareerh5{
+    .launchcareerh5 {
         display: flex;
         flex-direction:column;
         justify-items: center;
         line-height:1.8em;
     }
-    .launchcareer h5{
+    .launchcareer h5 {
         font-weight: 600;
         font-size:1.2em;
         color: #384047;
     }
 
-    .launchcareer p{
+    .launchcareer p {
         margin: 10px 0 20px 0;
     }  
 
-    .launchlearnmore{
+    .launchlearnmore {
         background-color: #5fcf80;
         text-align:center;
         color: white;
@@ -480,29 +478,29 @@
         
     }
 
-    .launchlearnmor:hover{
+    .launchlearnmor:hover {
         background-color: #34ad58;
     }
 
-    .techdegree{       
+    .techdegree {       
       display: flex;
       flex-direction:row;
       justify-content: space-between;
       margin-top: 40px;
     }
 
-    .techdegree h5{
+    .techdegree h5 {
          font-size:16px;
          color: #384047;                     
      }
      
-    .techdegree span{
+    .techdegree span {
         color: #384047;
         font-weight: 600;      
          
      }
 
-     .ok{
+     .ok {
          list-style-image: url(img/Check.png);
          margin-bottom:25px;
          line-height: 1.5em;
@@ -510,7 +508,7 @@
          
      }
 
-     .no{
+     .no {
          list-style-image: url(img/Cross.png);
          margin-bottom: 25px;
          line-height: 1.5em;
@@ -518,7 +516,7 @@
          
      }
 
-     .checkitems{
+     .checkitems {
         display:flex;
         flex-direction: column;
         justify-items: center;
@@ -526,7 +524,7 @@
         padding: 0 30px;        
      }
 
-     .techdegree h6{
+     .techdegree h6 {
          font-weight:500;
          
          font-size:13px;
@@ -534,18 +532,14 @@
          padding-left:80px;
      }
 
-     .span2{
+     .span2 {
         font-size: 13px;
         padding-top:2px;
      }
-     .last{
+
+     .last {
          margin-bottom:0;
      }
-
-     
-         
-}
-
      
 /*Fin section Launch your career*/
 
@@ -634,23 +628,15 @@
     }
 
     .chris-ul {
-        list-style-type: none;
+        list-style: url(img/Check-Violet.png);
         margin: 0 0 30px 0 ;
     }
 
     .chris-ul li {
         margin-bottom: 20px;
-    }
-
-    .chris-ul img {
-        padding-right: 15px;
-        vertical-align: middle;
-    }
-
-    .chris-ul p {
-        display: inline;
         line-height: 1.5em;
-        color: #576366;
+        color: #576366; 
+        padding: 0 0 1rem 34px;
     }
 
     .chris-button {
@@ -704,4 +690,5 @@
     footer>img {
         padding: 1.5rem 0 0 15px;
     }
+
 }
