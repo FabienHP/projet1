@@ -672,6 +672,20 @@ footer>img {
     .col-md-10{width: 83.33%;}
     .col-md-11{width: 91.66%;}
     .col-md-12{width: 100%;}
+
+    .partner img{
+        padding: 0px 0px 80px 0px;
+        width: 40%;
+        height: 40%;
+    }
+    .imagebalance{
+        
+        width: 64%;
+        padding: 10px 100px;
+       
+}
+
+    
 }
 
 /*AFFICHAGE MOBILE*/
