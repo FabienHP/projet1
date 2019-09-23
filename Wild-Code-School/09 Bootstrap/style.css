@@ -1,0 +1,28 @@
+.row {
+	width: 440px;
+	height: 440px;
+}
+
+.black {
+	background-color: #333333;
+	width: 40px;
+	height: 40px;
+}
+
+.orange {
+	background-color: #F67E2A;
+	width: 40px;
+	height: 40px;
+}
+
+.yellow {
+	background-color: #FFCC37;
+	width: 40px;
+	height: 40px;
+}
+
+.hightblack {
+	background-color: #000000;
+	width: 40px;
+	height: 40px;
+}

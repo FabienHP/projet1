@@ -1,0 +1,28 @@
+.text-center {
+    padding-top: 48px;
+}
+
+.card-title {
+    background-color: rgb(76, 82, 82);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.card:hover .card-title{
+    visibility: visible;
+}
+
+img {
+    width: 100%;
+    max-height: 300px;
+}
+
+form {
+    margin-bottom: 75px;
+}
+
+.contenair {
+    padding: 15px;
+}
