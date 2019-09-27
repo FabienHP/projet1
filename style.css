@@ -638,6 +638,12 @@ footer>img {
     padding: 1.5rem 0 0 15px;
 }
 
+/* new page */
+
+.textredi {
+    padding-top: 50px;
+}
+
 /*AFFICHAGE BUREAU*/
 
 @media screen and (min-width: 992px) {
