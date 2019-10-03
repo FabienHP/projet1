@@ -15,7 +15,7 @@
                     <img class="alignimg" src="img/Menu-Burger.png" alt="">
                 </div>
                 <div class="col-sm-4 col-lg-4">
-                    <img class="navlogo" src="img/TreeHouse-Logo-Small.png" alt="#">
+                    <img class="navlogo" id="navLogo" src="img/TreeHouse-Logo-Small.png" alt="#">
                 </div>
                 <div class="col-sm-4 col-lg-4 alignadiv">
                     <a class="aligna" href="#">Free Trial</a>
@@ -30,7 +30,16 @@
                     <h2>Whatever your goal — we'll get you there</h2>
                 </div>
 
-                <p id="welcome">WELCOMEEEEE</p>
+                <div class="welcomeDiv row col-sm-12" id="welcomeDiv">
+                    <div class="textDiv1 col-sm-12 row">
+                        <span class="welcome">Welcome</span>
+                        <p class="welcomeName" id="welcomeName"></p>
+                    </div>
+                    <div class="textDiv2 col-sm-12 row">
+                        <p class="padp">Start creating with code and design today</p>
+                        <button class="buttonStart" id="buttonStart">Start</button>
+                    </div>
+                </div>
 
                 <div class="extform col-lg-4">
                     <form id="form" name="formhead" class="formulaire">
@@ -40,29 +49,33 @@
                             <span>
                                 First name
                             </span>
-                            <input type="text" name="First-name" id="firstName">
-                        </label>       
+                            <input class="input" type="text" name="First-name" id="firstName">
+                        </label>      
+                        <p id="invalideFirst" class="invalide">Invalide first name</p> 
                 
                         <label for="Last name" >
                             <span>
                                 Last name
                             </span>
-                            <input type="text" name="Last-name" id="lastName">
-                        </label>              
+                            <input class="input" type="text" name="Last-name" id="lastName">
+                        </label>
+                        <p id="invalideLast" class="invalide">Invalide last name</p>              
                             
                         <label for= "Email adresse">
                             <span>
                                 Email address
                             </span>
-                            <input type="email" name="Email-adresse" id="emailAddress">
+                            <input class="input" type="email" name="Email-adresse" id="emailAddress">
                         </label>
+                        <p id="invalideMail" class="invalide">Invalide email address</p>
 
                         <label for="password">
                             <span>
                                 Password
                             </span>
-                            <input type="password" name="Password" id="password">
+                            <input class="input" type="password" name="Password" id="password">
                         </label>
+                        <p id="invalidePass" class="invalide">Invalide password</p>
                             
                         <label class="labcheck" for="Abonnement newsletter">
                             <span class="textcheck">
@@ -78,7 +91,7 @@
                 </div>
             </div>
 
-            <div class="footer-header">
+            <div class="footer-header" id="fh">
                 <div class="div-footer-header">
                     <span class="text-1">300+</span>
                     <span class="text-2">courses</span>

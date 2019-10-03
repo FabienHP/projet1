@@ -111,6 +111,54 @@ nav a {
     margin-top: 15px;
 }
 
+.welcomeDiv {
+    display: none;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.textDiv1 {
+    display: flex;
+    justify-content: center;
+    background-color: #387bab;
+    color: #FFF;
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+    border: 4px solid #387bab;
+}
+
+.welcome {
+    padding-right: 10px;
+}
+
+.welcomeName {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.textDiv2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #384047;
+    background-color: #FFF;
+    border-radius: 0 0 4px 4px;
+    font-size: 28px;
+    padding: 12px 12px;
+}
+
+.padp {
+    padding-bottom: 12px;
+}
+
+.buttonStart {
+    background-color: #387bab;
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
 /* Top Form */
 
 .extform {
@@ -120,7 +168,7 @@ nav a {
 
 .formulaire { 
     background-color: white;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
@@ -159,8 +207,18 @@ input{
     border-radius: 4px;
     padding: .75rem 1rem;
     margin-bottom: 24px;
+    border-color: #d4d9dd;
 }
 
+.invalide {
+    display: none;
+    background-color: #ed5a5a;
+    border-radius: 0 0 4px 4px;
+    width: 245px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #FFF;
+}
 /* Footer of Form */
 
 .labcheck {
