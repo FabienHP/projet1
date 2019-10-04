@@ -48,11 +48,15 @@ html {
 nav {
     position: fixed;
     background-color: white;
-    height: 50px;
     width: 100%;
 }
 
-.alignimg {
+.alignimg1 {
+    padding: 16px 0 0 15px;
+}
+
+.alignimg2 {
+    display: none;
     padding: 16px 0 0 15px;
 }
 
@@ -72,13 +76,35 @@ nav {
 
 .aligna {
     padding-left: 39%;
-}
-
-nav a {
     text-decoration: none;
     color: #5fcf80;
     font-weight: 700;
     font-size: 14px;
+}
+
+.listBurger {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.listBurger a {
+    height: 40px;
+    color: #7b8b8e;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signIn {
+    border-bottom: 2px solid #f0f2f4;
+    padding-top: 20px;
+}
+
+.talentPath {
+    padding-top: 20px;
 }
 
 /* Header/Form*/
